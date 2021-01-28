@@ -15,6 +15,7 @@ namespace RandomArraySort
             }
 
             Array.Sort(arr);
+            Array.Reverse(arr);
 
             for (int i = 0; i < arr.Length; i++)
             {
